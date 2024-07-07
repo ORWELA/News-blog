@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Page</title>
+    <link rel="stylesheet" href="./post.css" />
+    <script src="./post.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="content">
+        <h1>Create News</h1>
+        <form id="createNewsForm">
+          <div class="form-div">
+            <label for="title">Title</label>
+            <input type="text" id="title" name="title" required />
+          </div>
+          <div class="form-div">
+            <label for="description">Description</label>
+            <textarea name="description" id="description" required></textarea>
+          </div>
+          <div class="form-div">
+            <label for="category">Category</label>
+            <select id="category" name="category" required>
+              <option value="Politics">Politics</option>
+              <option value="Science">Science</option>
+              <option value="Lifestyle">Lifestyle</option>
+              <option value="Sports">Sports</option>
+            </select>
+          </div>
+          <div class="form-div" id="name-div">
+            <div class="form-div-inline">
+              <label for="firstname">Firstname</label>
+              <input type="text" id="firstname" name="firstname" required />
+            </div>
+            <div class="form-div-inline">
+              <label for="lastname">Lastname</label>
+              <input type="text" id="lastname" name="lastname" required />
+            </div>
+          </div>
+          <div class="div-buttons">
+            <button type="button" class="button" onclick="cancelForm()">
+              Cancel
+            </button>
+            <button type="submit" class="button">Submit</button>
+          </div>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

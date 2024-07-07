@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  .styled-table th,
+  .styled-table td {
+    padding: 12px 15px;
+  }
+  .styled-table th {
+    background-color: #f4f4f4;
+    color: #333;
+    border-bottom: 1px solid #ddd;
+  }
+  .styled-table tr {
+    border-bottom: 1px solid #ddd;
+  }
+  .styled-table tr:nth-of-type(even) {
+    background-color: #f9f9f9;
+  }
+  .styled-table tr:last-of-type {
+    border-bottom: 2px solid #009879;
+  }
+  .styled-table .field,
+  .styled-table .input-field {
+    display: inline-block;
+    width: calc(100% - 20px);
+  }
+  .styled-table .input-field {
+    display: none;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  .styled-table .action-btn {
+    width: 100px;
+    padding: 5px 10px;
+    border: 1px solid #009879;
+    border-radius: 4px;
+    background-color: #009879;
+    color: #fff;
+    cursor: pointer;
+    margin: 2px;
+  }
+  .styled-table .action-btn:hover {
+    background-color: #007f66;
+  }
+  .styled-table .create-btn {
+    padding: 5px 10px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    margin: 2px;
+  }
+  .styled-table .create-btn:hover {
+    background-color: #555;
+  }
+  .header {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
